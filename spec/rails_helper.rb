@@ -7,6 +7,7 @@ require 'capybara/rails'
 require 'support/factory_girl'
 require 'factory_girl_rails'
 require 'database_cleaner'
+require 'webmock/rspec'
 
 ActiveRecord::Migration.maintain_test_schema!
 
