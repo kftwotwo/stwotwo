@@ -5,6 +5,7 @@ require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/rails'
 require 'support/factory_girl'
+require 'factory_girl_rails'
 require 'database_cleaner'
 
 ActiveRecord::Migration.maintain_test_schema!
@@ -32,5 +33,12 @@ RSpec.configure do |config|
     DatabaseCleaner.cleaning do
       data.run
     end
+  end
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
   end
 end
