@@ -16,6 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 gem 'devise'
+gem 'insightly2'
 
 group :development, :test do
   gem 'rails-pry'
