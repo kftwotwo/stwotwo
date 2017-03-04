@@ -20,7 +20,6 @@ gem 'insightly2'
 gem 'sendgrid-ruby'
 gem 'medium'
 gem 'sidekiq'
-gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'rails-pry'
@@ -28,6 +27,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'rails-controller-testing'
   gem 'byebug', platform: :mri
 end
 
