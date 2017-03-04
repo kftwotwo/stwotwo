@@ -70,6 +70,11 @@ GEM
     docile (1.1.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    factory_girl (4.8.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.8.0)
+      factory_girl (~> 4.8.0)
+      railties (>= 3.0.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
@@ -214,6 +219,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.2)
   devise
+  factory_girl_rails
   insightly2
   jbuilder (~> 2.5)
   jquery-rails
