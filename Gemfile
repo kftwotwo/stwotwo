@@ -28,6 +28,7 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'rails-controller-testing'
+  gem 'database_cleaner'
   gem 'byebug', platform: :mri
 end
 
