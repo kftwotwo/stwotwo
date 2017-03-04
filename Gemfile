@@ -21,6 +21,7 @@ gem 'insightly2'
 group :development, :test do
   gem 'rails-pry'
   gem 'rspec-rails'
+  gem 'simplecov'
   gem 'byebug', platform: :mri
 end
 
