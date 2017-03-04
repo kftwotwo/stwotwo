@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'insightly2'
 gem 'sendgrid-ruby'
+gem 'medium'
 
 group :development, :test do
   gem 'rails-pry'
