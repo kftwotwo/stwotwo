@@ -30,6 +30,7 @@ group :development, :test do
   gem 'rails-controller-testing'
   gem 'database_cleaner'
   gem 'shoulda-matchers'
+  gem 'webmock'
   gem 'byebug', platform: :mri
 end
 
