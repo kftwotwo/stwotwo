@@ -19,6 +19,7 @@ gem 'devise'
 gem 'insightly2'
 gem 'sendgrid-ruby'
 gem 'medium'
+gem 'sidekiq'
 
 group :development, :test do
   gem 'rails-pry'
