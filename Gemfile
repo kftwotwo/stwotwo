@@ -31,6 +31,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'shoulda-matchers'
   gem 'webmock'
+  gem 'vcr'
   gem 'byebug', platform: :mri
 end
 
