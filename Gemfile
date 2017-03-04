@@ -20,6 +20,7 @@ gem 'insightly2'
 gem 'sendgrid-ruby'
 gem 'medium'
 gem 'sidekiq'
+gem 'database_cleaner'
 
 group :development, :test do
   gem 'rails-pry'
