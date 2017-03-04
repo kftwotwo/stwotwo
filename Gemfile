@@ -29,6 +29,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rails-controller-testing'
   gem 'database_cleaner'
+  gem 'shoulda-matchers'
   gem 'byebug', platform: :mri
 end
 
