@@ -1,18 +1,18 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ktwotwo/Project/stwotwo/spec/models/lead_spec.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/models/insightly_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/rails_helper.rb": [
@@ -545,6 +545,13 @@
         1,
         null
       ],
+      "/Users/ktwotwo/Project/stwotwo/spec/factories/insightlies.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/ktwotwo/Project/stwotwo/spec/factories/leads.rb": [
         1,
         1,
@@ -562,6 +569,36 @@
         1,
         null
       ],
+      "/Users/ktwotwo/Project/stwotwo/app/models/insightly.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/models/lead_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
       "/Users/ktwotwo/Project/stwotwo/app/models/lead.rb": [
         1,
         1,
@@ -569,13 +606,8 @@
         1,
         1,
         null
-      ],
-      "/Users/ktwotwo/Project/stwotwo/app/models/application_record.rb": [
-        1,
-        1,
-        null
       ]
     },
-    "timestamp": 1488675404
+    "timestamp": 1488753947
   }
 }
