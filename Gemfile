@@ -23,7 +23,7 @@ gem 'sidekiq'
 gem 'rest-client'
 
 group :development, :test do
-  gem 'rails-pry'
+  gem 'pry-rails'
   gem 'rspec-rails'
   gem 'simplecov'
   gem 'capybara'
