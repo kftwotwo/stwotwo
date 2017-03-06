@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.insight.ly/v2.1/Organisations
+    body:
+      encoding: UTF-8
+      string: '{"organisation_name":"test","background":"test","work_email":"test","contactinfos":[{"type":"Phone","subtype":"","label":"Work","detail":"test"}]}'
+    headers:
+      Authorization:
+      - Basic OWU2N2U5OTMtYWU2My00YWZjLWI4NDgtNzFkMWFlMGNmMmE5Og==
+      User-Agent:
+      - Faraday v0.11.0
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Location:
+      - https://api.insight.ly/v2.1/Organisations/102324571
+      Date:
+      - Mon, 06 Mar 2017 06:41:45 GMT
+      Content-Length:
+      - '484'
+      Set-Cookie:
+      - snaptid=sac1prdc01ut06; path=/; HttpOnly; Secure
+    body:
+      encoding: UTF-8
+      string: '{"ORGANISATION_ID":102324571,"ORGANISATION_NAME":"test","BACKGROUND":"test","IMAGE_URL":null,"OWNER_USER_ID":1290033,"DATE_CREATED_UTC":"2017-03-06
+        06:41:45","DATE_UPDATED_UTC":"2017-03-06 06:41:45","VISIBLE_TO":"EVERYONE","VISIBLE_TEAM_ID":null,"VISIBLE_USER_IDS":null,"CUSTOMFIELDS":[],"ADDRESSES":[],"CONTACTINFOS":[{"CONTACT_INFO_ID":110919200,"TYPE":"PHONE","SUBTYPE":null,"LABEL":"Work","DETAIL":"test"}],"DATES":[],"TAGS":[],"LINKS":[],"ORGANISATIONLINKS":[],"EMAILLINKS":null}'
+    http_version: 
+  recorded_at: Mon, 06 Mar 2017 06:41:46 GMT
+recorded_with: VCR 3.0.3
