@@ -70,8 +70,8 @@
         null,
         null,
         1,
-        47,
-        47,
+        49,
+        49,
         null,
         null,
         null,
@@ -807,7 +807,9 @@
         2,
         2,
         2,
+        2,
         null,
+        2,
         2,
         2,
         2,
@@ -819,6 +821,23 @@
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/models/organisation_spec.rb": [
@@ -875,6 +894,6 @@
         null
       ]
     },
-    "timestamp": 1488815341
+    "timestamp": 1488819733
   }
 }

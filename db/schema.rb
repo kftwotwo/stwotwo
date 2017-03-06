@@ -32,8 +32,9 @@ ActiveRecord::Schema.define(version: 20170306153815) do
     t.string   "opportunity_name"
     t.string   "opportunity_description"
     t.string   "opportunity_solution"
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.string   "opportunity_solution_description"
+    t.datetime "created_at",                       null: false
+    t.datetime "updated_at",                       null: false
   end
 
   create_table "organisations", force: :cascade do |t|
