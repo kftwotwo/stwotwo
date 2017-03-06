@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.insight.ly/v2.1/Leads
+    body:
+      encoding: UTF-8
+      string: '{"first_name":"test","last_name":"test","phone_number":"test","email_address":"test"}'
+    headers:
+      Authorization:
+      - Basic OWU2N2U5OTMtYWU2My00YWZjLWI4NDgtNzFkMWFlMGNmMmE5Og==
+      User-Agent:
+      - Faraday v0.11.0
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Location:
+      - https://api.insight.ly/v2.1/Leads/16508009
+      Date:
+      - Mon, 06 Mar 2017 07:04:07 GMT
+      Content-Length:
+      - '989'
+      Set-Cookie:
+      - snaptid=sac1prdc01ut05; path=/; HttpOnly; Secure
+    body:
+      encoding: UTF-8
+      string: '{"LEAD_ID":16508009,"SALUTATION":null,"TITLE":null,"FIRST_NAME":"test","LAST_NAME":"test","ORGANIZATION_NAME":null,"PHONE_NUMBER":"test","MOBILE_PHONE_NUMBER":null,"FAX_NUMBER":null,"EMAIL_ADDRESS":"test","WEBSITE_URL":null,"OWNER_USER_ID":1290033,"DATE_CREATED_UTC":"2017-03-06
+        07:04:08","DATE_UPDATED_UTC":"2017-03-06 07:04:08","CONVERTED":false,"CONVERTED_DATE_UTC":null,"CONVERTED_CONTACT_ID":null,"CONVERTED_ORGANIZATION_ID":null,"CONVERTED_OPPORTUNITY_ID":null,"VISIBLE_TO":"EVERYONE","RESPONSIBLE_USER_ID":1290033,"INDUSTRY":null,"LEAD_STATUS_ID":943623,"LEAD_SOURCE_ID":953370,"VISIBLE_TEAM_ID":null,"EMPLOYEE_COUNT":null,"LEAD_RATING":null,"LEAD_DESCRIPTION":null,"VISIBLE_USER_IDS":null,"CUSTOMFIELDS":[],"ADDRESS_STREET":null,"ADDRESS_CITY":null,"ADDRESS_STATE":null,"ADDRESS_POSTCODE":null,"ADDRESS_COUNTRY":null,"TAGS":[],"EMAIL_LINKS":[],"EVENT_LINKS":[],"TASK_LINKS":[],"NOTE_LINKS":[],"FILE_ATTACHMENTS":[],"IMAGE_URL":"http://s3.amazonaws.com/insightly.userfiles/649620/"}'
+    http_version: 
+  recorded_at: Mon, 06 Mar 2017 07:04:09 GMT
+recorded_with: VCR 3.0.3

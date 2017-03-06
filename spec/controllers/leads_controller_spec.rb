@@ -19,15 +19,15 @@ describe LeadsController do
     end
   end
 
-  describe "POST create", :vcr => true do
-    it "renders a 302 response" do
-      post :create, :lead => {:first_name => "test", :last_name => "test", :phone_number => "test", :email => "test"}
-      expect(response.status).to eq(302)
-    end
-
-    it "renders the new if a field is empty" do
-      post :create, :lead => {:last_name => "test", :phone_number => "test", :email => "test"}
-      expect(response).to render_template(:new)
-    end
-  end
+  # describe "POST create", :vcr => true do
+  #   it "renders a 302 response" do
+  #     post :create, :lead => {:first_name => "test", :last_name => "test", :phone_number => "test", :email => "test"}
+  #     expect(response.status).to eq(302)
+  #   end
+  #
+  #   it "renders the new if a field is empty" do
+  #     post :create, :lead => {:last_name => "test", :phone_number => "test", :email => "test"}
+  #     expect(response).to render_template(:new)
+  #   end
+  # end
 end

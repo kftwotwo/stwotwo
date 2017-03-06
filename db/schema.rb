@@ -29,6 +29,12 @@ ActiveRecord::Schema.define(version: 20170306014752) do
     t.string   "description_of_organisation"
     t.string   "organisation_email"
     t.string   "organisation_phone"
+    t.string   "organisation_website"
+    t.string   "street"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip_code"
+    t.string   "country"
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
   end
