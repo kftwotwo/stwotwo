@@ -1,6 +1,6 @@
 class Lead < ApplicationRecord
   Insightly2.api_key = ENV['INSIGHTLY_API_KEY']
-  
+
   validates :first_name, :presence => true
   validates :last_name, :presence => true
   validates :email, :presence => true

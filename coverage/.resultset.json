@@ -568,6 +568,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/support/factory_girl.rb": [
@@ -747,6 +748,6 @@
         null
       ]
     },
-    "timestamp": 1488765636
+    "timestamp": 1488765879
   }
 }
