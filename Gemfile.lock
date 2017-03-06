@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/Insightly/insightly-ruby.git
+  remote: https://github.com/rept/insightly-ruby.git
   revision: ab55b94c333fd9bc24882199956e98396f998182
   specs:
     insightly2 (0.2.0)
