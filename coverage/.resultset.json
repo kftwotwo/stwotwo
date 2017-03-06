@@ -70,8 +70,8 @@
         null,
         null,
         1,
-        41,
-        41,
+        47,
+        47,
         null,
         null,
         null,
@@ -585,6 +585,13 @@
         null,
         null
       ],
+      "/Users/ktwotwo/Project/stwotwo/spec/factories/opportunities.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/ktwotwo/Project/stwotwo/spec/factories/organisations.rb": [
         1,
         1,
@@ -793,6 +800,27 @@
         1,
         null
       ],
+      "/Users/ktwotwo/Project/stwotwo/spec/models/opportunity_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/models/opportunity.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/ktwotwo/Project/stwotwo/spec/models/organisation_spec.rb": [
         1,
         null,
@@ -847,6 +875,6 @@
         null
       ]
     },
-    "timestamp": 1488790051
+    "timestamp": 1488815341
   }
 }
