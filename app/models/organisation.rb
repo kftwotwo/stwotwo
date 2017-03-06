@@ -11,7 +11,7 @@ class Organisation < ApplicationRecord
   validates :country, :presence => true
 
   class << self
-    def  create_organisation(name_of_organisation, description_of_organisation, organisation_email, organisation_phone, organisation_website, street, city, state, zip_code, country)
+    def create_organisation(name_of_organisation, description_of_organisation, organisation_email, organisation_phone, organisation_website, street, city, state, zip_code, country)
       Insightly2.client.create_organisation(:organisation => {
         :organisation_name => name_of_organisation,
         :background => description_of_organisation,

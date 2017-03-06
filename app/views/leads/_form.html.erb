@@ -1,15 +1,28 @@
 <%= form_for @lead do |f| %>
+
+  <%= f.label :prefix %>
+  <%= f.text_field :prefix %>
+
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
   <%= f.label :first_name %>
   <%= f.text_field :first_name %>
 
   <%= f.label :last_name %>
   <%= f.text_field :last_name %>
 
+  <%= f.label :organization_name %>
+  <%= f.text_field :organization_name %>
+
   <%= f.label :phone_number %>
   <%= f.text_field :phone_number %>
 
   <%= f.label :email %>
   <%= f.text_field :email %>
-  
+
+  <%= f.label :website %>
+  <%= f.text_field :website %>
+
   <%= f.submit %>
 <% end %>

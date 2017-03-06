@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.insight.ly/v2.1/Opportunities
+    body:
+      encoding: UTF-8
+      string: '{"opportunity_name":"test","opportunity_details":"test","opportunity_state":"open","customfields":[{"custom_field_id":"OPPORTUNITY_FIELD_1","field_value":"New
+        Hire Training"},{"custom_field_id":"OPPORTUNITY_FIELD_2","field_value":"still
+        testing"}]}'
+    headers:
+      Authorization:
+      - Basic NjZlMzIxYTAtYzQzOC00MTQwLWE0YWEtODg0NmZkZjliMWRlOg==
+      User-Agent:
+      - Faraday v0.11.0
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Location:
+      - https://api.insight.ly/v2.1/Opportunities/13420425
+      Date:
+      - Mon, 06 Mar 2017 23:40:41 GMT
+      Content-Length:
+      - '781'
+      Set-Cookie:
+      - snaptid=sac1prdc01ut03; path=/; HttpOnly; Secure
+    body:
+      encoding: UTF-8
+      string: '{"OPPORTUNITY_ID":13420425,"OPPORTUNITY_NAME":"test","OPPORTUNITY_DETAILS":"test","PROBABILITY":null,"BID_CURRENCY":"USD","BID_AMOUNT":null,"BID_TYPE":null,"BID_DURATION":null,"FORECAST_CLOSE_DATE":null,"ACTUAL_CLOSE_DATE":null,"CATEGORY_ID":null,"PIPELINE_ID":null,"STAGE_ID":null,"OPPORTUNITY_STATE":"open","IMAGE_URL":"http://s3.amazonaws.com/insightly.userfiles/786908/","RESPONSIBLE_USER_ID":null,"OWNER_USER_ID":1333229,"DATE_CREATED_UTC":"2017-03-06
+        23:40:42","DATE_UPDATED_UTC":"2017-03-06 23:40:42","VISIBLE_TO":"EVERYONE","VISIBLE_TEAM_ID":null,"VISIBLE_USER_IDS":null,"CUSTOMFIELDS":[{"CUSTOM_FIELD_ID":"OPPORTUNITY_FIELD_1","FIELD_VALUE":"New
+        Hire Training"},{"CUSTOM_FIELD_ID":"OPPORTUNITY_FIELD_2","FIELD_VALUE":"still
+        testing"}],"TAGS":[],"LINKS":[],"EMAILLINKS":[]}'
+    http_version: 
+  recorded_at: Mon, 06 Mar 2017 23:40:42 GMT
+recorded_with: VCR 3.0.3
