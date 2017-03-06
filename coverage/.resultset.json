@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ktwotwo/Project/stwotwo/spec/controllers/insightlies_controller_spec.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/controllers/leads_controller_spec.rb": [
         1,
         null,
         1,
@@ -538,7 +538,11 @@
         1,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/app/helpers/insightlies_helper.rb": [
+      "/Users/ktwotwo/Project/stwotwo/app/helpers/leads_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/helpers/organisations_helper.rb": [
         1,
         null
       ],
@@ -546,14 +550,14 @@
         1,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/spec/factories/insightlies.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/factories/leads.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/spec/factories/leads.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/factories/organisations.rb": [
         1,
         1,
         null,
@@ -571,31 +575,16 @@
         1,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/app/controllers/insightlies_controller.rb": [
-        1,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        0,
-        0,
-        null,
-        null,
+      "/Users/ktwotwo/Project/stwotwo/app/controllers/leads_controller.rb": [
         1,
         null,
         1,
         0,
         null,
+        null,
+        null,
+        null,
+        1,
         null,
         1,
         0,
@@ -605,6 +594,27 @@
       "/Users/ktwotwo/Project/stwotwo/app/controllers/application_controller.rb": [
         1,
         1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/controllers/organisations_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/controllers/organisations_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/controllers/static_pages_controller_spec.rb": [
@@ -618,7 +628,24 @@
         1,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/spec/helpers/insightlies_helper_spec.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/helpers/leads_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/helpers/organisations_helper_spec.rb": [
         1,
         null,
         null,
@@ -652,11 +679,10 @@
         1,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/spec/models/insightly_spec.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/models/lead_spec.rb": [
         1,
         null,
         1,
-        null,
         2,
         2,
         2,
@@ -665,35 +691,11 @@
         2,
         2,
         2,
-        null,
-        null,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null,
-        1,
-        14,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null
       ],
-      "/Users/ktwotwo/Project/stwotwo/app/models/insightly.rb": [
+      "/Users/ktwotwo/Project/stwotwo/app/models/lead.rb": [
         1,
         1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
         null,
         1,
         1,
@@ -702,15 +704,6 @@
         1,
         1,
         0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null
@@ -719,8 +712,41 @@
         1,
         1,
         null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/models/organisation_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/models/organisation.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1488763430
+    "timestamp": 1488765636
   }
 }
