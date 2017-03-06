@@ -1,0 +1,2 @@
+module InsightliesHelper
+end

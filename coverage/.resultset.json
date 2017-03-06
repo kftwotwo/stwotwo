@@ -1,17 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ktwotwo/Project/stwotwo/spec/models/insightly_spec.rb": [
+      "/Users/ktwotwo/Project/stwotwo/spec/controllers/insightlies_controller_spec.rb": [
         1,
         null,
         1,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ],
@@ -49,8 +42,8 @@
         null,
         null,
         1,
-        8,
-        8,
+        14,
+        14,
         null,
         null,
         null,
@@ -545,6 +538,14 @@
         1,
         null
       ],
+      "/Users/ktwotwo/Project/stwotwo/app/helpers/insightlies_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/helpers/static_pages_helper.rb": [
+        1,
+        null
+      ],
       "/Users/ktwotwo/Project/stwotwo/spec/factories/insightlies.rb": [
         1,
         1,
@@ -561,7 +562,8 @@
       ],
       "/Users/ktwotwo/Project/stwotwo/config/routes.rb": [
         1,
-        null,
+        1,
+        1,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/support/factory_girl.rb": [
@@ -569,7 +571,131 @@
         1,
         null
       ],
+      "/Users/ktwotwo/Project/stwotwo/app/controllers/insightlies_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/controllers/static_pages_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/controllers/static_pages_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/helpers/insightlies_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/helpers/static_pages_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/models/insightly_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        2,
+        2,
+        2,
+        2,
+        null,
+        2,
+        2,
+        2,
+        null,
+        null,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        14,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/ktwotwo/Project/stwotwo/app/models/insightly.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
         1,
         1,
         null,
@@ -578,36 +704,23 @@
         0,
         null,
         null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/app/models/application_record.rb": [
         1,
         1,
         null
-      ],
-      "/Users/ktwotwo/Project/stwotwo/spec/models/lead_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null
-      ],
-      "/Users/ktwotwo/Project/stwotwo/app/models/lead.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null
       ]
     },
-    "timestamp": 1488753947
+    "timestamp": 1488763430
   }
 }

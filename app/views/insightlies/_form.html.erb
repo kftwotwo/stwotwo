@@ -1,0 +1,31 @@
+<%= form_for @insightly do |f|%>
+  <!-- Lead -->
+  <%= f.label :first_name %>
+  <%= f.text_field :first_name %>
+
+  <%= f.label :last_name %>
+  <%= f.text_field :last_name %>
+
+  <%= f.label :phone_number %>
+  <%= f.text_field :phone_number %>
+
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+
+  <!-- Organisation -->
+
+  <%= f.label :name_of_organisation %>
+  <%= f.text_field :name_of_organisation %>
+
+  <%= f.label :description_of_organisation %>
+  <%= f.text_field :description_of_organisation %>
+
+  <%= f.label :organisation_email %>
+  <%= f.text_field :organisation_email %>
+
+  <%= f.label :organisation_phone %>
+  <%= f.text_field :organisation_phone %>
+
+  <%= f.submit %>
+
+<% end %>
