@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.insight.ly/v2.1/Leads
+    body:
+      encoding: UTF-8
+      string: '{"saluation":null,"title":null,"first_name":null,"last_name":"test","organization_name":null,"phone_number":"test","email_address":"test","website_url":null}'
+    headers:
+      Authorization:
+      - Basic Og==
+      User-Agent:
+      - Faraday v0.11.0
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Date:
+      - Tue, 07 Mar 2017 03:52:00 GMT
+      Content-Length:
+      - '61'
+      Set-Cookie:
+      - snaptid=sac1prdc01ut04; path=/; HttpOnly; Secure
+    body:
+      encoding: UTF-8
+      string: '{"Message":"Authorization has been denied for this request."}'
+    http_version: 
+  recorded_at: Tue, 07 Mar 2017 03:52:02 GMT
+recorded_with: VCR 3.0.3

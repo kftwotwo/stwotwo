@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.insight.ly/v2.1/Organisations
+    body:
+      encoding: UTF-8
+      string: '{"organisation_name":"","background":null,"work_email":null,"contactinfos":[{"type":"Website","subtype":"","label":"Work","detail":null}],"addresses":[{"address_type":"work","street":null,"city":null,"state":null,"post_code":null,"country":null}]}'
+    headers:
+      Authorization:
+      - Basic NjZlMzIxYTAtYzQzOC00MTQwLWE0YWEtODg0NmZkZjliMWRlOg==
+      User-Agent:
+      - Faraday v0.11.0
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Date:
+      - Tue, 07 Mar 2017 04:56:02 GMT
+      Content-Length:
+      - '151'
+      Set-Cookie:
+      - snaptid=sac1prdc01ut05; path=/; HttpOnly; Secure
+    body:
+      encoding: UTF-8
+      string: '[{"Name":"apiOrg.ORGANISATION_NAME","Message":"ORGANISATION_NAME is
+        required"},{"Name":"apiOrg.CONTACTINFOS[0].DETAIL","Message":"DETAIL is required"}]'
+    http_version: 
+  recorded_at: Tue, 07 Mar 2017 04:56:04 GMT
+recorded_with: VCR 3.0.3

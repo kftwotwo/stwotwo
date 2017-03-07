@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.insight.ly/v2.1/Opportunities
+    body:
+      encoding: UTF-8
+      string: '{"opportunity_name":"","opportunity_details":null,"opportunity_state":"open","customfields":[{"custom_field_id":"OPPORTUNITY_FIELD_1","field_value":null},{"custom_field_id":"OPPORTUNITY_FIELD_2","field_value":null}]}'
+    headers:
+      Authorization:
+      - Basic NjZlMzIxYTAtYzQzOC00MTQwLWE0YWEtODg0NmZkZjliMWRlOg==
+      User-Agent:
+      - Faraday v0.11.0
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Location:
+      - https://api.insight.ly/v2.1/Opportunities/13421885
+      Date:
+      - Tue, 07 Mar 2017 04:54:27 GMT
+      Content-Length:
+      - '630'
+      Set-Cookie:
+      - snaptid=sac1prdc01ut05; path=/; HttpOnly; Secure
+    body:
+      encoding: UTF-8
+      string: '{"OPPORTUNITY_ID":13421885,"OPPORTUNITY_NAME":null,"OPPORTUNITY_DETAILS":null,"PROBABILITY":null,"BID_CURRENCY":"USD","BID_AMOUNT":null,"BID_TYPE":null,"BID_DURATION":null,"FORECAST_CLOSE_DATE":null,"ACTUAL_CLOSE_DATE":null,"CATEGORY_ID":null,"PIPELINE_ID":null,"STAGE_ID":null,"OPPORTUNITY_STATE":"open","IMAGE_URL":"http://s3.amazonaws.com/insightly.userfiles/786908/","RESPONSIBLE_USER_ID":null,"OWNER_USER_ID":1333229,"DATE_CREATED_UTC":"2017-03-07
+        04:54:27","DATE_UPDATED_UTC":"2017-03-07 04:54:27","VISIBLE_TO":"EVERYONE","VISIBLE_TEAM_ID":null,"VISIBLE_USER_IDS":null,"CUSTOMFIELDS":[],"TAGS":[],"LINKS":[],"EMAILLINKS":[]}'
+    http_version: 
+  recorded_at: Tue, 07 Mar 2017 04:54:28 GMT
+recorded_with: VCR 3.0.3

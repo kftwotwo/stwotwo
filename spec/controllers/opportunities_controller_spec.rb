@@ -21,21 +21,13 @@ describe OpportunitiesController do
 
   describe "POST create", :vcr => true do
     it "renders a 302 response" do
-      post :create, :opportunity => {
-        :opportunity_name => "test",
-        :opportunity_description => "test",
-        :opportunity_solution => "New Hire Training",
-        :opportunity_solution_description => "still testing"
-        }
+      opportunity = attributes_for(:opportunity)
+      post :create, :opportunity => opportunity
       expect(response.status).to eq(302)
     end
 
     it "renders the new template if a field is empty" do
-      post :create, :opportunity => {
-        :opportunity_name => "test",
-        :opportunity_solution => "New Hire Training",
-        :opportunity_solution_description => "still testing"
-        }
+      post :create, :opportunity => {:opportunity_name => nil}
       expect(response).to render_template(:new)
     end
   end
