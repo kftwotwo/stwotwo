@@ -25,6 +25,7 @@
         null,
         1,
         1,
+        null,
         1,
         1,
         1,
@@ -71,8 +72,8 @@
         null,
         null,
         1,
-        52,
-        52,
+        54,
+        54,
         null,
         null,
         null,
@@ -95,7 +96,16 @@
         1,
         null,
         null,
-        1
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "/Users/ktwotwo/Project/stwotwo/config/application.rb": [
         1,
@@ -620,8 +630,6 @@
       ],
       "/Users/ktwotwo/Project/stwotwo/app/controllers/leads_controller.rb": [
         1,
-        1,
-        null,
         null,
         1,
         3,
@@ -630,6 +638,7 @@
         1,
         2,
         2,
+        1,
         1,
         1,
         null,
@@ -695,7 +704,6 @@
       ],
       "/Users/ktwotwo/Project/stwotwo/app/controllers/opportunities_controller.rb": [
         1,
-        1,
         null,
         1,
         3,
@@ -757,7 +765,7 @@
       ],
       "/Users/ktwotwo/Project/stwotwo/app/controllers/organisations_controller.rb": [
         1,
-        1,
+        null,
         1,
         3,
         null,
@@ -788,6 +796,38 @@
       ],
       "/Users/ktwotwo/Project/stwotwo/app/controllers/static_pages_controller.rb": [
         1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/spec/mailers/on_board_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        3,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ktwotwo/Project/stwotwo/app/mailers/on_board_mailer.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/models/lead_spec.rb": [
@@ -962,6 +1002,6 @@
         null
       ]
     },
-    "timestamp": 1488872954
+    "timestamp": 1488923493
   }
 }

@@ -1,6 +1,4 @@
 class LeadsController < ApplicationController
-  ActiveSupport::Deprecation.silenced = true
-
 
   def new
     @lead = Lead.new
@@ -10,6 +8,7 @@ class LeadsController < ApplicationController
     @lead = Lead.new(insightly_params_lead)
     if @lead.save
       InsightlyService::Lead.create(@lead)
+      OnBoardMailer.welcome_email(@lead).deliver
       redirect_to root_path
     else
       render :new

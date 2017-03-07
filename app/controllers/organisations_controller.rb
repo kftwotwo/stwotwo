@@ -1,5 +1,5 @@
 class OrganisationsController < ApplicationController
-  ActiveSupport::Deprecation.silenced = true
+  
   def new
     @organisation = Organisation.new
   end
