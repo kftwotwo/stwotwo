@@ -21,33 +21,14 @@ describe OrganisationsController do
 
   describe "POST create", :vcr => true do
     it "renders a 302 response" do
-      post :create, :organisation => {
-        :name_of_organisation => "test",
-        :description_of_organisation => "test",
-        :organisation_email => "test",
-        :organisation_phone => "123-123-1234",
-        :organisation_website => "test.com",
-        :street => "123 Ave.",
-        :city => "Portland",
-        :state => "OR",
-        :zip_code => "59001",
-        :country => "US",
-        }
+      organisation = attributes_for(:organisation)
+      post :create, :organisation => organisation
       expect(response.status).to eq(302)
     end
 
     it "renders the new template if a field is empty" do
-      post :create, :organisation => {
-        :name_of_organisation => "test",
-        :description_of_organisation => "test",
-        :organisation_email => "test",
-        :organisation_phone => "123-123-1234",
-        :organisation_website => "test.com",
-        :street => "123 Ave.",
-        :city => "Portland",
-        :state => "OR",
-        :zip_code => "59001",
-        }
+      organisation = attributes_for(:organisation)
+      post :create, :organisation => {organisation => {:name_of_organisation => nil}}
       expect(response).to render_template(:new)
     end
   end

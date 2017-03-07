@@ -4,8 +4,6 @@ describe Organisation do
   it { should have_db_column :name_of_organisation }
   it { should have_db_column :description_of_organisation }
   it { should have_db_column :organisation_email }
-  it { should have_db_column :organisation_phone }
-  it { should have_db_column :organisation_website }
   it { should have_db_column :street }
   it { should have_db_column :city }
   it { should have_db_column :state }
@@ -20,5 +18,4 @@ describe Organisation do
   it { should validate_presence_of :state }
   it { should validate_presence_of :zip_code }
   it { should validate_presence_of :country }
-
 end

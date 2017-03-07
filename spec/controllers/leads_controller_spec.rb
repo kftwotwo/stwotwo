@@ -21,12 +21,13 @@ describe LeadsController do
 
   describe "POST create", :vcr => true do
     it "renders a 302 response" do
-      post :create, :lead => {:prefix => "jr.", :title => "welder", :first_name => "test", :last_name => "test", :organization_name => "weld_it", :phone_number => "test", :email => "test", :website => "test.com"}
+      lead = attributes_for(:lead)
+      post :create, :lead => lead
       expect(response.status).to eq(302)
     end
 
     it "renders the new if a fields are empty" do
-      post :create, :lead => {:last_name => "test", :phone_number => "test", :email => "test"}
+      post :create, :lead => {:last_name => nil}
       expect(response).to render_template(:new)
     end
   end
