@@ -21,8 +21,9 @@ describe LeadsController do
 
   describe "POST create", :vcr => true do
     it "renders a 302 response" do
-      lead = attributes_for(:lead)
-      post :create, :lead => lead
+
+      @lead = attributes_for(:lead)
+      post :create, :lead => @lead
       expect(response.status).to eq(302)
     end
 

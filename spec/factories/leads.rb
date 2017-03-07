@@ -6,7 +6,7 @@ FactoryGirl.define do
     last_name  "test"
     organization_name "weld_it"
     phone_number "test"
-    email "test"
+    email "test@test.com"
     website "test.com"
   end
 end
