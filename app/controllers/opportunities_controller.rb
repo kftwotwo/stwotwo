@@ -1,4 +1,6 @@
 class OpportunitiesController < ApplicationController
+  ActiveSupport::Deprecation.silenced = true
+
   def new
     @opportunity = Opportunity.new
   end

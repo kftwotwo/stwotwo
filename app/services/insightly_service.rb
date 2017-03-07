@@ -1,6 +1,7 @@
-require 'insightly/lead'
-require 'insightly/organisation'
-require 'insightly/opportunity'
+files = File.join(File.dirname(__FILE__),'insightly','**','*.rb')
+Dir.glob(files).each do |file|
+  require file
+end
 
 
 module InsightlyService

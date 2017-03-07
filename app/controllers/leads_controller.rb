@@ -1,4 +1,6 @@
 class LeadsController < ApplicationController
+  ActiveSupport::Deprecation.silenced = true
+
 
   def new
     @lead = Lead.new

@@ -27,6 +27,9 @@ Rails.application.configure do
 
   config.active_record.migration_error = :page_load
 
+  config.logger = Logger.new(STDOUT)
+  config.logger.level = Logger::ERROR
+
   config.assets.debug = true
   config.assets.quiet = true
 
