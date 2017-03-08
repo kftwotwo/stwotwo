@@ -21,6 +21,7 @@ gem 'sendgrid-ruby'
 gem 'sidekiq'
 gem 'contentful'
 gem 'rest-client'
+gem 'materialize-sass'
 
 group :development, :test do
   gem 'pry-rails'
