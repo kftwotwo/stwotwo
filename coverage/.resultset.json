@@ -621,6 +621,8 @@
         1,
         1,
         1,
+        null,
+        1,
         null
       ],
       "/Users/ktwotwo/Project/stwotwo/spec/support/factory_girl.rb": [
@@ -797,6 +799,10 @@
       "/Users/ktwotwo/Project/stwotwo/app/controllers/static_pages_controller.rb": [
         1,
         1,
+        null,
+        null,
+        1,
+        0,
         null,
         null
       ],
@@ -1002,6 +1008,6 @@
         null
       ]
     },
-    "timestamp": 1488924211
+    "timestamp": 1488992915
   }
 }
