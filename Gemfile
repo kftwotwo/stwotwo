@@ -18,8 +18,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'insightly2', github: 'rept/insightly-ruby'
 gem 'sendgrid-ruby'
-gem 'medium'
 gem 'sidekiq'
+gem 'contentful'
 gem 'rest-client'
 
 group :development, :test do
