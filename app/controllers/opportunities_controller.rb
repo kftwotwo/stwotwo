@@ -8,6 +8,7 @@ class OpportunitiesController < ApplicationController
     @opportunity = Opportunity.new(insightly_params_opportunity)
     if @opportunity.save
       InsightlyService::Opportunity.create(@opportunity)
+      flash[:notice] = "Thank you I will get in contact with you as soon as possible!"
       redirect_to root_path
     else
       render :new

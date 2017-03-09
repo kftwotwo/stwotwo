@@ -1,17 +1,26 @@
 <%= form_for @opportunity do |f| %>
 
-  <%= f.label :opportunity_name %>
-  <%= f.text_field :opportunity_name %>
+  <div class="col s6">
 
-  <%= f.label :opportunity_description %>
-  <%= f.text_field :opportunity_description %>
+    <%= f.label :opportunity_name, 'Opportunity Title' %>
+    <%= f.text_field :opportunity_name %>
+  </div>
 
-  <%= f.label :opportunity_solution %>
-  <%= f.select(:opportunity_solution, options_for_select([['New Hire Training', 'New Hire Training'], ['Product/Tools Training', 'Product/Tools Training'], ['Skill/Behavior Training', 'Skill/Behavior Training'], ['Leadership Training', 'Leadership Training'], ['Consult for a training program', 'Consult for a training program'], ['Facilitation assistance', 'Facilitation assistance'], ['Trainer/Facilitation Training', 'Trainer/Facilitation Training']])) %>
+  <div class="col s6">
+    <%= f.label :opportunity_description %>
+    <%= f.text_field :opportunity_description %>
+  </div>
 
-  <%= f.label :opportunity_solution_description %>
-  <%= f.text_field :opportunity_solution_description %>
+  <div class="col s12">
+    <%= f.label :opportunity_solution, 'What best describes the training solution you are looking for?' %>
+    <%= f.select :opportunity_solution, [['New Hire Training','New Hire Training'],['Product/Tools Training','Product/Tools Training'], ['Skill/Behavior Training','Skill/Behavior Training'],['Leadership Training', 'Leadership Training'], ['Consult for a training program', 'Consult for a training program'],['Facilitation assistance', 'Facilitation assistance'],['Trainer/Facilitation Training','Trainer/Facilitation Training']],{ class: 'browser-default'} %>
+  </div>
+
+  <div class="col s12">
+    <%= f.label :opportunity_solution_description, 'Describe your training solution in detail' %>
+    <%= f.text_area :opportunity_solution_description, class: 'materialize-textarea' %>
+  </div>
 
 
-  <%= f.submit %>
+  <%= f.submit 'Done' %>
 <% end %>
