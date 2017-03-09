@@ -1,5 +1,15 @@
-<h1>Blog Page</h1>
-<% @objects.each do |blog| %>
-  <%= blog['raw']['fields']['title_id'] %><br>
-  <%= blog['raw']['fields']['body_id'] %><br><hr>
-<% end %>
+<div class="container row">
+  <% @objects.each do |blog| %>
+
+  <div class="col s12">
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content">
+          <h5>  <%= blog['raw']['fields']['title_id'] %></h5>
+          <p><%= blog['raw']['fields']['body_id'] %><br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
