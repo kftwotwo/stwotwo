@@ -5,18 +5,20 @@ Rails.application.configure do
   config.eager_load = true
 
   config.consider_all_requests_local       = false
+
   config.action_controller.perform_caching = true
 
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   config.assets.js_compressor = :uglifier
 
-  config.assets.compile = false
+  config.assets.css_compressor = :sass
+
+  config.assets.compile = true
 
   config.log_level = :debug
 
   config.log_tags = [ :request_id ]
-
 
   config.action_mailer.perform_caching = false
 
@@ -24,15 +26,12 @@ Rails.application.configure do
 
   config.active_support.deprecation = :notify
 
-  # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
-
   config.active_record.dump_schema_after_migration = false
 end

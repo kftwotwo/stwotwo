@@ -1,5 +1,5 @@
 class OrganisationsController < ApplicationController
-  
+
   def new
     @organisation = Organisation.new
   end
@@ -8,7 +8,7 @@ class OrganisationsController < ApplicationController
     @organisation = Organisation.new(insightly_params_organisation)
     if @organisation.save
       InsightlyService::Organisation.create(@organisation)
-      redirect_to root_path
+      redirect_to new_opportunity_path
     else
       render :new
     end

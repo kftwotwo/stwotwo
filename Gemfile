@@ -15,12 +15,12 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
-gem 'devise'
 gem 'insightly2', github: 'rept/insightly-ruby'
 gem 'sendgrid-ruby'
 gem 'sidekiq'
 gem 'contentful'
 gem 'rest-client'
+gem 'materialize-sass'
 
 group :development, :test do
   gem 'pry-rails'

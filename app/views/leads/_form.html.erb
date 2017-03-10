@@ -1,28 +1,46 @@
 <%= form_for @lead do |f| %>
+  <div class="col s2">
+    <%= f.label :prefix %>
+    <%= f.text_field :prefix %>
+  </div>
 
-  <%= f.label :prefix %>
-  <%= f.text_field :prefix %>
 
-  <%= f.label :title %>
-  <%= f.text_field :title %>
+  <div class="col s5">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
 
-  <%= f.label :first_name %>
-  <%= f.text_field :first_name %>
+  <div class="col s5">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
 
-  <%= f.label :last_name %>
-  <%= f.text_field :last_name %>
+  <div class="col s6">
+    <%= f.label :organization_name %>
+    <%= f.text_field :organization_name %>
+  </div>
 
-  <%= f.label :organization_name %>
-  <%= f.text_field :organization_name %>
+  <div class="col s6">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
 
-  <%= f.label :phone_number %>
-  <%= f.text_field :phone_number %>
+  <div class="col s4">
+    <%= f.label :phone_number %>
+    <%= f.telephone_field :phone_number %>
+  </div>
 
-  <%= f.label :email %>
-  <%= f.text_field :email %>
+  <div class="col s4">
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+  </div>
 
-  <%= f.label :website %>
-  <%= f.text_field :website %>
+  <div class="col s4">
+    <%= f.label :website %>
+    <%= f.url_field :website %>
+  </div>
 
-  <%= f.submit %>
+
+
+  <%= f.submit "Next", class: 'btn'%>
 <% end %>

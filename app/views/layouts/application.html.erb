@@ -3,14 +3,30 @@
   <head>
     <title>Stwotwo</title>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <%= yield %>
+    <div class="notice">
+      <%= notice %>
+    </div>
+    <div class="alert">
+      <%= alert %>
+    </div>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo right">stwotwo</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Blogs", blog_path %></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <%= yield %>
   </body>
 </html>
