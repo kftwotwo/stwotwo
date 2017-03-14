@@ -9,7 +9,7 @@ class LeadsController < ApplicationController
     if @lead.save
       InsightlyService::Lead.create(@lead)
       OnBoardMailer.welcome_email(@lead).deliver
-      redirect_to new_organisation_path
+      redirect_to root_path
     else
       render :new
     end
