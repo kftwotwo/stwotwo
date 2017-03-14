@@ -19,13 +19,13 @@ class LeadsController < ApplicationController
 
   def insightly_params_lead
     params.require(:lead).permit(
-      :prefix,
-      :title,
-      :first_name,
-      :last_name,
-      :organization_name,
-      :phone_number,
-      :email,
-      :website)
+    :first_name,
+    :last_name,
+    :title,
+    :organization_name,
+    :phone_number,
+    :email,
+    :training_solution,
+    :training_solution_description)
   end
 end
