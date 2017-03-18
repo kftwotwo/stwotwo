@@ -319,6 +319,7 @@
         null,
         1,
         1,
+        1,
         null,
         1,
         1,
@@ -377,9 +378,6 @@
       ],
       "/Users/ktwotwo/Project/stwotwo/app/controllers/static_pages_controller.rb": [
         1,
-        1,
-        null,
-        null,
         1,
         0,
         null,
@@ -454,6 +452,6 @@
         null
       ]
     },
-    "timestamp": 1489531097
+    "timestamp": 1489809547
   }
 }
