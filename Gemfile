@@ -34,10 +34,10 @@ group :development, :test do
   gem 'webmock'
   gem 'vcr'
   gem 'byebug', platform: :mri
+  gem 'sqlite3'
 end
 
 group :development do
-  gem 'sqlite3'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
