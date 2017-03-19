@@ -14,6 +14,7 @@
 @media screen and (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   #first-panel {
+    height: 90vh;
     h3 {
     padding-top: 35%;
     margin: 0;
@@ -21,9 +22,10 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 412px) {
   /* smartphones, Android phones, landscape iPhone */
   #first-panel {
+    height: 91.5vh;
     h3 {
     padding-top: 60%;
     margin: 0;
@@ -34,26 +36,29 @@
 @media screen and (min-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   #first-panel {
+    height: 92.3vh;
     h3 {
-    padding-top: 60%;
+    padding-top: 40%;
     margin: 0;
     }
   }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   #first-panel {
+    height: 91vh;
     h3 {
-    padding-top: 45%;
+    padding-top: 40% !important;
     margin: 0;
     }
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   /* big landscape tablets, laptops, and desktops */
   #first-panel {
+    height: 93.45vh;
     h3 {
     padding-top: 35% !important;
     margin: 0;
@@ -61,9 +66,114 @@
   }
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
   /* hi-res laptops and desktops */
   #first-panel {
+    height: 91vh;
+    h3 {
+    padding-top: 30% !important;
+    margin: 0;
+    }
+  }
+}
+
+#second-panel {
+  position: relative;
+  width: 100%;
+  height: 92vh;
+  video {
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 92vh;
+    z-index: -5;
+  }
+  .second-panel-text {
+    z-index: 15;
+    margin: 0;
+    padding-top: 33%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #second-panel {
+    height: 90vh;
+    video {
+      height: 90.1vh;
+    }
+    .second-panel-text {
+      padding-top: 50%;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 412px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #second-panel {
+    height: 91.5vh;
+    video {
+      height: 91.5vh;
+    }
+    .second-panel-text {
+      padding-top: 50%;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+   #second-panel {
+    height: 92vh;
+    video {
+      height: 92vh;
+    }
+    .second-panel-text {
+      padding-top: 50%;
+      margin: 0;
+    }
+  }
+}
+// }
+
+@media screen and (min-width: 800px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #second-panel {
+    height: 91vh;
+    video {
+      height: 91vh;
+    }
+    h3 {
+    padding-top: 40% !important;
+    margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* big landscape tablets, laptops, and desktops */
+  #second-panel {
+    height: 91.4vh;
+    video {
+      height: 91.4vh;
+    }
+    h3 {
+    padding-top: 40% !important;
+    margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+//   /* hi-res laptops and desktops */
+  #second-panel {
+    height: 91.4vh;
+    video {
+      height: 91.4vh;
+    }
     h3 {
     padding-top: 30% !important;
     margin: 0;
@@ -73,32 +183,7 @@
 
 
 
-// .two-panel {
-//   position: relative;
-//   left: 0;
-//   width: 100vw;
-//   video {
-//     left: 0;
-//     position: absolute;
-//     object-fit: fill;
-//     width: 100vw;
-//     height: 100vh;
-//     z-index: -5;
-//   }
-//   .center {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     height: 55vh;
-//     h3 {
-//       text-shadow: 1px 0px 15px somkewhite;
-//       text-align: center;
-//       margin: 0;
-//       vertical-align: middle;
-//     }
-//   }
-// }
-//
+
 // .third-panel{
 //   width: 100%;
 //   height: 100vh;
