@@ -22,10 +22,10 @@
   }
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 481px) {
   /* smartphones, Android phones, landscape iPhone */
   #first-panel {
-    height: 91.5vh;
+    height: 92.2vh;
     h3 {
     padding-top: 60%;
     margin: 0;
@@ -36,7 +36,7 @@
 @media screen and (min-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   #first-panel {
-    height: 92.3vh;
+    height: 93vh;
     h3 {
     padding-top: 40%;
     margin: 0;
@@ -47,9 +47,9 @@
 @media screen and (min-width: 800px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   #first-panel {
-    height: 91vh;
+    height: 89.52vh;
     h3 {
-    padding-top: 40% !important;
+    padding-top: 30%;
     margin: 0;
     }
   }
@@ -58,7 +58,7 @@
 @media screen and (min-width: 1024px) {
   /* big landscape tablets, laptops, and desktops */
   #first-panel {
-    height: 93.45vh;
+    height: 91.5vh;
     h3 {
     padding-top: 35% !important;
     margin: 0;
@@ -69,9 +69,9 @@
 @media screen and (min-width: 1280px) {
   /* hi-res laptops and desktops */
   #first-panel {
-    height: 91vh;
+    height: 93.8vh;
     h3 {
-    padding-top: 30% !important;
+    padding-top: 50% !important;
     margin: 0;
     }
   }
@@ -110,15 +110,15 @@
   }
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 481px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   #second-panel {
-    height: 91.5vh;
+    height: 92.2vh;
     video {
-      height: 91.5vh;
+      height: 92.2vh;
     }
     .second-panel-text {
-      padding-top: 50%;
+      padding-top: 65%;
       margin: 0;
     }
   }
@@ -127,9 +127,9 @@
 @media screen and (min-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
    #second-panel {
-    height: 92vh;
+    height: 93vh;
     video {
-      height: 92vh;
+      height: 93vh;
     }
     .second-panel-text {
       padding-top: 50%;
@@ -142,12 +142,12 @@
 @media screen and (min-width: 800px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   #second-panel {
-    height: 91vh;
+    height: 89.52vh;
     video {
-      height: 91vh;
+      height: 89.52vh;
     }
     h3 {
-    padding-top: 40% !important;
+    padding-top: 35% !important;
     margin: 0;
     }
   }
@@ -156,12 +156,12 @@
 @media screen and (min-width: 1024px) {
   /* big landscape tablets, laptops, and desktops */
   #second-panel {
-    height: 91.4vh;
+    height: 91.7vh;
     video {
-      height: 91.4vh;
+      height: 91.7vh;
     }
     h3 {
-    padding-top: 40% !important;
+    padding-top: 45% !important;
     margin: 0;
     }
   }
@@ -170,41 +170,99 @@
 @media screen and (min-width: 1280px) {
 //   /* hi-res laptops and desktops */
   #second-panel {
-    height: 91.4vh;
+    height: 93.7vh;
     video {
-      height: 91.4vh;
+      height: 93.7vh;
     }
     h3 {
-    padding-top: 30% !important;
+    padding-top: 50% !important;
     margin: 0;
     }
   }
 }
 
+#third-panel{
+  width: 100%;
+  height: 91.5vh;
+  background-image: url('https://duquets.files.wordpress.com/2014/09/gradient_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 91.5vh;
+    h3, h5 {
+      text-align: center;
+      margin: 0;
+      vertical-align: middle;
+    }
+  }
+}
 
+@media screen and (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #third-panel {
+    height: 90vh;
+    margin: 0;
+    h3 {
+      font-size: 2em;
+      margin: 0;
+    }
+  }
+}
 
+@media screen and (min-width: 481px) {
+  /* smartphones, Android phones, landscape iPhone */
+  #third-panel {
+    height: 90vh;
+    h3 {
+      font-size: 2.92em;
+    margin: 0;
+    }
+  }
+}
 
-// .third-panel{
-//   width: 100%;
-//   height: 100vh;
-//   background-image: url('https://duquets.files.wordpress.com/2014/09/gradient_bg.jpg');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   .center {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     height: 100vh;
-//     h3, h5 {
-//       color: #FFCC00;
-//       text-align: center;
-//       text-shadow: 1px 1px 3px black;
-//       margin: 0;
-//       vertical-align: middle;
-//     }
-//   }
-// }
-//
+@media screen and (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #third-panel {
+    height: 93vh;
+    h3 {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #third-panel {
+    height: 89.52vh;
+    h3 {
+    margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* big landscape tablets, laptops, and desktops */
+  #third-panel {
+    height: 91.7vh;
+    h3 {
+    margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* hi-res laptops and desktops */
+  #third-panel {
+    height: 93.5vh;
+    h3 {
+    margin: 0;
+    }
+  }
+}
+
 // .four-panel{
 //   width: 100%;
 //   height: 55vh;
