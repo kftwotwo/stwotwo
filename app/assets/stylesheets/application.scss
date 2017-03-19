@@ -21,8 +21,19 @@
 
 nav {
   font-family: 'Raleway', sans-serif !important;
+  .brand-logo {
+    font-size: 30px !important;
+  }
+  .nav-mobile, .side-nav {
+    li {
+      font-size: 30px !important;
+    }
+  }
 }
 
 body {
   font-family: 'Cantarell', sans-serif !important;
+  p, li, a {
+    font-size: 20px !important;
+  }
 }
