@@ -9,6 +9,7 @@ class LeadsController < ApplicationController
     if @lead.save
       InsightlyService::Lead.create(@lead)
       OnBoardMailer.welcome_email(@lead).deliver
+      flash[:success] = "Success! I will get in contact with you soon!"
       redirect_to root_path
     else
       render :new

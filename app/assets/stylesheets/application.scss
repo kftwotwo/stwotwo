@@ -31,6 +31,20 @@ nav {
   }
 }
 
+.icon_style{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    cursor:pointer;
+}
+
+.alert {
+  position: fixed;
+  z-index: 5 !important;
+}
+
 body {
   font-family: 'Cantarell', sans-serif !important;
   p, li, a {
