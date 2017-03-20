@@ -3,15 +3,15 @@
     <div class="nav-wrapper" role="navigation">
       <a href="#!" class="brand-logo">Two Two Training</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars black-text" aria-hidden="true"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><%= link_to "Contact Me", new_lead_path, class: 'black-text' %></li>
+        <li><%= link_to "Training Solutions", training_solutions_path, class: 'black-text' %></li>
+        <li><%= link_to "Blogs", blog_path, class: 'black-text' %></li>
+        <li><%= link_to "About", about_path, class: 'black-text' %></li>
+      </ul>
     </div>
   </nav>
 </div>
-<ul class="right hide-on-med-and-down">
-  <li><%= link_to "Contact Me", new_lead_path, class: 'black-text' %></li>
-  <li><%= link_to "Training Solutions", training_solutions_path, class: 'black-text' %></li>
-  <li><%= link_to "Blogs", blog_path, class: 'black-text' %></li>
-  <li><%= link_to "About", about_path, class: 'black-text' %></li>
-</ul>
 <ul class="side-nav" id="mobile-demo">
   <li><%= link_to "Contact Me", new_lead_path, class: 'black-text' %></li>
   <li><%= link_to "Training Solutions", training_solutions_path, class: 'black-text' %></li>
