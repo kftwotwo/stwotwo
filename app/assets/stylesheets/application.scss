@@ -14,3 +14,42 @@
  *= require_self
  */
  @import "materialize";
+
+.row {
+  margin-top: 0 !important;
+}
+
+nav {
+  font-family: 'Raleway', sans-serif !important;
+  .brand-logo {
+    font-size: 30px !important;
+    color: black
+  }
+
+
+  li {
+    font-size: 30px !important;
+    color: black;
+  }
+}
+
+.icon_style{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    cursor:pointer;
+}
+
+.alert {
+  position: fixed;
+  z-index: 5 !important;
+}
+
+body {
+  font-family: 'Cantarell', sans-serif !important;
+  p, li, a {
+    font-size: 20px !important;
+  }
+}

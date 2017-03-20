@@ -1,42 +1,52 @@
-<div class="center row">
-  <div class="one-panel">
-    <h3 class="white-text">Instructional Design | Facilitation  | Leadership Development | Consult</h3>
-    <a href="/leads/new" class="btn center indigo lighten-2">Contact Me</a>
-  </div>
-
-  <div class="two-panel">
-    <%#= video_tag "Wall-Sketching.mp4", :autobuffer => true, :autoplay => true, :loop => :loop %>
-    <div class="center">
-      <h3>Flexible & Customized Solutions</h3>
+<section id="first-panel">
+  <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-item red center">
+      <p>Instructional Design</p>
+    </div>
+    <div class="carousel-item amber center">
+      <p>Facilitation</p>
+    </div>
+    <div class="carousel-item green center">
+      <p>Leadership Development</p>
+    </div>
+    <div class="carousel-item blue center">
+      <p>Consult</p>
     </div>
   </div>
+</section>
 
-  <div class="third-panel">
-    <div class="container">
-      <div class="center">
-        <h3 class="white-text ">Training solutions should fit around your business needs and your employee's schedules.</h3>
-        <h5 class="white-text ">In every consult, I will always present 2-3 options for delivering the training that was selected.  It's important to have a choice, and hear the pros and cons of each solution.</h5>
-        </div>
-    </div>
+<section id="second-panel" class="center row">
+  <%= video_tag "Wall-Sketching.mp4", :autobuffer => true, :autoplay => true, :loop => :loop %>
+  <div class="container">
+    <p class="second-panel-text">Flexible & Customized Solutions</p>
   </div>
+</section>
 
-  <div class="four-panel">
-    <div class="center">
-      <h3>Learner, Performance, and Business Focused</h3>
-    </div>
+<section id="third-panel" class="row center">
+  <div class="container">
+      <p>Training solutions should fit around your business needs and your employee's schedules.</p>
+      <p>In every consult, I will always present 2-3 options for delivering the training that was selected.  It's important to have a choice, and hear the pros and cons of each solution.</p>
   </div>
+</section>
 
-  <div class="five-panel">
-    <div class="center container white-text">
-    <h3>"One sized solution fits all", is not the best way to develop your employees.</h3>
+<section id="fourth-panel" class="center row">
+  <p>Learner, Performance, and Business Focused</p>
+</section>
+
+<section id="fith-panel" class="center row">
+  <div class="container white-text">
+    <p>"One sized solution fits all", is not the best way to develop your employees.</p>
     <p>All training solutions should be tailored to your learner's needs and interests.   As part of our consult and even in the project I will be asking a lot of questions.  These questions will help me get to the heart of:</p>
     <ul>
       <li>What you as the leader, would define success of the training.</li>
       <li>What your learners already know, and where their gaps are.</li>
       <li>What your company culture is like, to help bring an organic feel to the training.</li>
     </ul>
-
-    </div>
   </div>
+</section>
 
-</div>
+<script type="text/javascript">
+   if(window.location.href.substr(-2) !== "?r") {
+      window.location = window.location.href + "?r";
+    }
+</script>

@@ -1,43 +1,43 @@
 <%= form_for @lead do |f| %>
 
-  <div class="col s6">
+  <div class="col l6 s12">
     <%= f.label :first_name %>
     <%= f.text_field :first_name %>
   </div>
 
-  <div class="col s6">
+  <div class="col l6 s12">
     <%= f.label :last_name %>
     <%= f.text_field :last_name %>
   </div>
 
-  <div class="col s6">
+  <div class="col l6 s12">
     <%= f.label :organization_name %>
     <%= f.text_field :organization_name %>
   </div>
 
-  <div class="col s6">
+  <div class="col l6 s12">
     <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
 
-  <div class="col s4">
+  <div class="col l4 s12">
     <%= f.label :phone_number %>
     <%= f.telephone_field :phone_number %>
   </div>
 
-  <div class="col s4">
+  <div class="col l4 s12">
     <%= f.label :email %>
     <%= f.email_field :email %>
   </div>
 
-  <div class="col s4">
+  <div class="col l4 s12">
     <%= f.label :training_solution, 'What best describes the training solution you are looking for?' %>
     <%= f.select :training_solution, [['New Hire Training','New Hire Training'],['Product/Tools Training','Product/Tools Training'], ['Skill/Behavior Training','Skill/Behavior Training'],['Leadership Training', 'Leadership Training'], ['Consult for a training program', 'Consult for a training program'],['Facilitation assistance', 'Facilitation assistance'],['Trainer/Facilitation Training','Trainer/Facilitation Training']],{ class: 'browser-default'} %>
   </div>
 
-  <div class="col s12">
+  <div class="col l12 s12">
     <%= f.label :training_solution_description, 'Describe your training solution in detail' %>
     <%= f.text_area :training_solution_description, class: 'materialize-textarea' %>
   </div>
-  <%= f.submit "Next", class: 'btn'%>
+  <%= f.submit "Submit", class: 'btn'%>
 <% end %>

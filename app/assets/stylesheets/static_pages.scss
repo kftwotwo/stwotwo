@@ -1,56 +1,93 @@
-.one-panel {
-  width: 100%;
-  height: 100vh;
-  background-image: url('http://expressionaryevents.com/wp-content/supersized-slides/Aurora_Blur_by_SkateAddiction.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+// landing
+.center {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+#second-panel {
   position: relative;
-  display: flex;
-  h3 {
+  width: 100%;
+  height: 92vh;
+  margin-bottom: 0;
+  video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    object-fit: fill;
+    width: 100%;
+    height: 92vh;
+    z-index: -5;
   }
-  a {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  .second-panel-text {
+    z-index: 15;
   }
 }
 
-.two-panel {
-  position: relative;
-  left: 0;
-  width: 100vw;
-  video {
-    left: 0;
-    position: absolute;
-    object-fit: fill;
-    width: 100vw;
-    height: 100vh;
-    z-index: -5;
-  }
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 55vh;
-    h3 {
-      text-shadow: 1px 0px 15px somkewhite;
-      text-align: center;
-      margin: 0;
-      vertical-align: middle;
+@media screen and (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #second-panel {
+    height: 90vh;
+    video {
+      height: 90.1vh;
     }
   }
 }
 
-.third-panel{
+@media screen and (min-width: 481px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #second-panel {
+    height: 92.2vh;
+    video {
+      height: 92.2vh;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+   #second-panel {
+    height: 93vh;
+    video {
+      height: 93vh;
+    }
+  }
+}
+// }
+
+@media screen and (min-width: 800px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #second-panel {
+    height: 89.52vh;
+    video {
+      height: 89.52vh;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* big landscape tablets, laptops, and desktops */
+  #second-panel {
+    height: 91.7vh;
+    video {
+      height: 91.7vh;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+//   /* hi-res laptops and desktops */
+  #second-panel {
+    height: 93.7vh;
+    video {
+      height: 93.7vh;
+    }
+  }
+}
+
+#third-panel{
   width: 100%;
-  height: 100vh;
+  height: 91.5vh;
   background-image: url('https://duquets.files.wordpress.com/2014/09/gradient_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,20 +95,62 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    h3, h5 {
-      color: #FFCC00;
-      text-align: center;
-      text-shadow: 1px 1px 3px black;
-      margin: 0;
-      vertical-align: middle;
+    height: 91.5vh;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #third-panel {
+    height: 90vh;
+    margin: 0;
+    h3 {
+      font-size: 2em;
     }
   }
 }
 
-.four-panel{
+@media screen and (min-width: 481px) {
+  /* smartphones, Android phones, landscape iPhone */
+  #third-panel {
+    height: 90vh;
+    h3 {
+      font-size: 2.92em;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #third-panel {
+    height: 93vh;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #third-panel {
+    height: 89.52vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* big landscape tablets, laptops, and desktops */
+  #third-panel {
+    height: 91.7vh;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* hi-res laptops and desktops */
+  #third-panel {
+    height: 93.5vh;
+  }
+}
+
+#fourth-panel{
   width: 100%;
-  height: 55vh;
+  height: 91.5vh;
   background-image: url('work.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,247 +169,291 @@
   }
 }
 
-.five-panel{
+@media screen and (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #fourth-panel {
+    height: 90vh;
+    margin: 0;
+    h3 {
+      font-size: 2em;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) {
+  /* smartphones, Android phones, landscape iPhone */
+  #fourth-panel {
+    height: 90vh;
+    h3 {
+      font-size: 2.92em;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #fourth-panel {
+    height: 93vh;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #fourth-panel {
+    height: 89.52vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* big landscape tablets, laptops, and desktops */
+  #fourth-panel {
+    height: 91.7vh;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* hi-res laptops and desktops */
+  #fourth-panel {
+    height: 93.5vh;
+  }
+}
+
+#fith-panel{
   width: 100%;
-  height: 100vh;
+  height: 93vh;
   background-image: url('http://www.techandall.com/wp-content/uploads/2013/08/bg9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    h3, ul, li {
-      font-size-adjust: auto;
-      text-align: center;
-      margin: 0;
-      vertical-align: middle;
-    }
-    h3 {
-      padding-top: 2%;
-      padding-bottom: 2%;
-      border: 1px solid white;
-    }
-  }
-}
-
-.smaller {
-  padding-top: 3%;
-  max-height: 40vh;
-  width: auto;
-  float: right;
-  margin-top: -5%;
-  padding-right: 1%;
-  width: 400px !important;
-
-}
-
-.about {
-  width: 100%;
-  height: 40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('http://www.newdesignfile.com/postpic/2014/03/wood-grain-background-pattern_89271.jpg');
-  margin: 0px !important;
-  p {
-    color: white;
-  }
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin: 0;
+  h3, ul, li {
+    font-size-adjust: auto;
+    text-align: center;
     margin: 0;
-    h3, h1 {
-      color: white;
-      text-shadow: 0px 0px 5px black;
-      font-size-adjust: auto;
-      text-align: center;
-      margin: 0;
-      vertical-align: middle;
-    }
+    vertical-align: middle;
+  }
+  h3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid white;
   }
 }
-
-.memorable {
-  width: 100%;
-  height: 100vh;
-  background-image: url('memorable.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    h3 {
-      color: white;
-      text-align: center;
-      text-shadow: 1px 1px 5px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-    p {
-      color: white;
-      font-size: 20px;
-      text-align: center;
-      text-shadow: 0px 0px 5px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-  }
-}
-
-.make_it {
-  width: 100%;
-  height: 100vh;
-  background-image: url('make.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    h3 {
-      text-align: center;
-      text-shadow: 1px 1px 3px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-    p {
-      color: yellow;
-      font-size: 20px;
-      text-align: center;
-      text-shadow: 5px 2px 3px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-  }
-}
-
-.measurable {
-  width: 100%;
-  height: 100vh;
-  background-image: url('measurable.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    h3 {
-      text-align: center;
-      text-shadow: 1px 1px 3px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-    p {
-      color: yellow;
-      font-size: 20px;
-      text-align: center;
-      margin: 0;
-      vertical-align: middle;
-    }
-  }
-}
-
-.part_one {
-    position: relative;
-    left: 0;
-    margin-top: -31px;
-    video {
-      left: 0;
-      position: absolute;
-      object-fit: fill;
-      width: 100vw !important;
-      z-index: -5;
-    }
-    a {
-
-      color: white;
-      font-size: 1.7em;
-    }
-    a:hover {
-      color: blue;
-    }
-  }
-
-  // h1 {
-  //   position: absolute;
-  //   top: 30%;
-  //   left: 50%;
-  //   margin-right: -50%;
-  //   transform: translate(-50%, -50%);
-  // }
-  // table {
-  //   position: absolute;
-  //   top: 50%;
-  //   left: 45%;
-  //   transform: translate(-50%, -50%);
-  // }
-
-#New_Employee_Training {
-  height: 100vh;
-  background-color: blue;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
-
-#Product {
-  height: 100vh;
-  background-color: red;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
-
-#Soft {
-  height: 100vh;
-  background-color: lightblue;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
-
-#Leadership {
-  height: 100vh;
-  background-color: orange;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
-
-#Training {
-  height: 100vh;
-  background-color: black;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
-
-#Facilitation {
-  height: 100vh;
-  background-color: red;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
-
-#Trainer {
-  height: 100vh;
-  background-color: black;
-  h1 {
-    margin: 0 !important;
-    padding-top: 20%;
-  }
-}
+// steve's profile pic
+// .smaller {
+//   padding-top: 3%;
+//   max-height: 40vh;
+//   width: auto;
+//   float: right;
+//   margin-top: -5%;
+//   padding-right: 1%;
+//   width: 400px !important;
+//
+// }
+//
+// .about {
+//   width: 100%;
+//   height: 40vh;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-image: url('http://www.newdesignfile.com/postpic/2014/03/wood-grain-background-pattern_89271.jpg');
+//   margin: 0px !important;
+//   p {
+//     color: white;
+//   }
+//   .center {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     margin: 0;
+//     h3, h1 {
+//       color: white;
+//       text-shadow: 0px 0px 5px black;
+//       font-size-adjust: auto;
+//       text-align: center;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//   }
+// }
+//
+// .memorable {
+//   width: 100%;
+//   height: 100vh;
+//   background-image: url('memorable.jpg');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   .center {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     height: 100vh;
+//     margin: 0;
+//     h3 {
+//       color: white;
+//       text-align: center;
+//       text-shadow: 1px 1px 5px black;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//     p {
+//       color: white;
+//       font-size: 20px;
+//       text-align: center;
+//       text-shadow: 0px 0px 5px black;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//   }
+// }
+//
+// .make_it {
+//   width: 100%;
+//   height: 100vh;
+//   background-image: url('make.jpg');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   .center {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     height: 100vh;
+//     h3 {
+//       text-align: center;
+//       text-shadow: 1px 1px 3px black;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//     p {
+//       color: yellow;
+//       font-size: 20px;
+//       text-align: center;
+//       text-shadow: 5px 2px 3px black;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//   }
+// }
+//
+// .measurable {
+//   width: 100%;
+//   height: 100vh;
+//   background-image: url('measurable.jpg');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   .center {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     height: 100vh;
+//     h3 {
+//       text-align: center;
+//       text-shadow: 1px 1px 3px black;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//     p {
+//       color: yellow;
+//       font-size: 20px;
+//       text-align: center;
+//       margin: 0;
+//       vertical-align: middle;
+//     }
+//   }
+// }
+//
+// .part_one {
+//     position: relative;
+//     left: 0;
+//     margin-top: -31px;
+//     video {
+//       left: 0;
+//       position: absolute;
+//       object-fit: fill;
+//       width: 100vw !important;
+//       z-index: -5;
+//     }
+//     a {
+//
+//       color: white;
+//       font-size: 1.7em;
+//     }
+//     a:hover {
+//       color: blue;
+//     }
+//   }
+//
+//   // h1 {
+//   //   position: absolute;
+//   //   top: 30%;
+//   //   left: 50%;
+//   //   margin-right: -50%;
+//   //   transform: translate(-50%, -50%);
+//   // }
+//   // table {
+//   //   position: absolute;
+//   //   top: 50%;
+//   //   left: 45%;
+//   //   transform: translate(-50%, -50%);
+//   // }
+//
+// #New_Employee_Training {
+//   height: 100vh;
+//   background-color: blue;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
+//
+// #Product {
+//   height: 100vh;
+//   background-color: red;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
+//
+// #Soft {
+//   height: 100vh;
+//   background-color: lightblue;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
+//
+// #Leadership {
+//   height: 100vh;
+//   background-color: orange;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
+//
+// #Training {
+//   height: 100vh;
+//   background-color: black;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
+//
+// #Facilitation {
+//   height: 100vh;
+//   background-color: red;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
+//
+// #Trainer {
+//   height: 100vh;
+//   background-color: black;
+//   h1 {
+//     margin: 0 !important;
+//     padding-top: 20%;
+//   }
+// }
