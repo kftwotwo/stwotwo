@@ -92,6 +92,70 @@
   }
 }
 
+#first-section {
+  position: relative;
+  left: 0;
+  height: 70vh;
+  margin: 0;
+  video {
+    left: 0;
+    position: absolute;
+    object-fit: fill;
+    width: 100vw !important;
+    height: 70vh;
+    z-index: -5;
+  }
+  a {
+    color: black;
+    font-size: 1.7em;
+  }
+  a:hover {
+    color: blue;
+  }
+}
+
+#New_Employee_Training {
+  height: 100vh;
+  background-color: blue;
+  margin: 0;
+}
+
+#Product {
+  height: 100vh;
+  background-color: red;
+  margin: 0;
+}
+
+#Soft {
+  height: 100vh;
+  background-color: lightblue;
+  margin: 0;
+}
+
+#Leadership {
+  height: 100vh;
+  background-color: orange;
+  margin: 0;
+}
+
+#Training {
+  height: 100vh;
+  background-color: darkgreen;
+  margin: 0;
+}
+
+#Facilitation {
+  height: 100vh;
+  background-color: red;
+  margin: 0;
+}
+
+#Trainer {
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+}
+
 // #memorable {
 //   width: 100%;
 //   height: 100vh;
@@ -166,82 +230,5 @@
 //       margin: 0;
 //       vertical-align: middle;
 //     }
-//   }
-// }
-//
-// #first-section {
-//   position: relative;
-//   left: 0;
-//   height: 70vh;
-//   video {
-//     left: 0;
-//     position: absolute;
-//     object-fit: fill;
-//     width: 100vw !important;
-//     height: 70vh;
-//     z-index: -5;
-//   }
-//   a {
-//     color: black;
-//     font-size: 1.7em;
-//   }
-//   a:hover {
-//     color: blue;
-//   }
-// }
-//
-// #New_Employee_Training {
-//   height: 100vh;
-//   background-color: blue;
-//   h1 {
-//     margin: 0 !important;
-//   }
-// }
-//
-// #Product {
-//   height: 100vh;
-//   background-color: red;
-//   h1 {
-//     margin: 0 !important;
-//   }
-// }
-//
-// #Soft {
-//   height: 100vh;
-//   background-color: lightblue;
-//   h1 {
-//     margin: 0 !important;
-//   }
-// }
-//
-// #Leadership {
-//   height: 100vh;
-//   background-color: orange;
-//   h1 {
-//     margin: 0 !important;
-//   }
-// }
-//
-// #Training {
-//   height: 100vh;
-//   background-color: darkgreen;
-//   h1 {
-//     margin: 0 !important;
-//   }
-// }
-//
-// #Facilitation {
-//   height: 100vh;
-//   background-color: red;
-//   h1 {
-//     margin: 0 !important;
-//   }
-// }
-//
-// #Trainer {
-//   height: 100vh;
-//   background-color: black;
-//   h1 {
-//     margin: 0 !important;
 //   }
 // }
