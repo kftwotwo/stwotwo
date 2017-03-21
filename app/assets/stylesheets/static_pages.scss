@@ -1,22 +1,3 @@
-// landing
-
-.second-panel-text {
-  z-index: 15;
-}
-
-#second-panel {
-  width: 100%;
-  height: 92vh;
-  margin-bottom: 0;
-  video {
-    position: absolute;
-    object-fit: fill;
-    width: 100%;
-    height: 92vh;
-    z-index: -5;
-  }
-}
-
 .section-alignment-center {
   position: relative;
 }
@@ -24,65 +5,69 @@
 .center-text {
   position: absolute;
   top: 50%;
-  right: 50%;
+  width: 100%;
   transform: translateY(-50%);
   text-align: center;
 }
 
-// #third-panel{
-//   width: 100%;
-//   height: 91.5vh;
-//   background-image: url('https://duquets.files.wordpress.com/2014/09/gradient_bg.jpg');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   .center {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     height: 91.5vh;
-//   }
-// }
-//
-// #fourth-panel{
-//   width: 100%;
-//   height: 91.5vh;
-//   background-image: url('work.jpg');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   .center {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     height: 55vh;
-//     h3 {
-//       text-shadow: 0px 0px 12px skyblue;
-//
-//       text-align: center;
-//       margin: 0;
-//       vertical-align: middle;
-//     }
-//   }
-// }
-//
-// #fith-panel{
-//   width: 100%;
-//   height: 93vh;
-//   background-image: url('http://www.techandall.com/wp-content/uploads/2013/08/bg9.jpg');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   margin: 0;
-//   h3, ul, li {
-//     font-size-adjust: auto;
-//     text-align: center;
-//     margin: 0;
-//     vertical-align: middle;
-//   }
-//   h3 {
-//     padding-top: 2%;
-//     padding-bottom: 2%;
-//     border: 1px solid white;
-//   }
-// }
+#first-panel {
+  p {
+    font-size: 4em;
+  }
+}
+
+
+#second-panel {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 0;
+  video {
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+  }
+  p {
+    font-size: 4em;
+  }
+}
+
+#third-panel{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://duquets.files.wordpress.com/2014/09/gradient_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+#fourth-panel{
+  width: 100%;
+  height: 100vh;
+  background-image: url('work.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  p {
+    font-size: 4em;
+  }
+}
+
+#fith-panel{
+  width: 100%;
+  height: 100vh;
+  background-image: url('http://www.techandall.com/wp-content/uploads/2013/08/bg9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  p, li {
+    font-size: 1.5rem;
+  }
+}
 
 // #about {
 //   width: 100%;
