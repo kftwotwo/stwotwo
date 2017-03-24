@@ -1,248 +1,73 @@
-// landing
-.center {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  text-align: center !important;
-  vertical-align: middle !important;
+.section-alignment-center {
+  position: relative;
 }
 
 .center-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
   text-align: center;
 }
 
+#first-panel {
+  p {
+    font-size: 4em;
+  }
+}
+
+
 #second-panel {
-  position: relative;
   width: 100%;
-  height: 92vh;
+  height: 100vh;
   margin-bottom: 0;
   video {
     position: absolute;
     object-fit: fill;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     z-index: -5;
   }
-  .second-panel-text {
-    z-index: 15;
-  }
-}
-
-@media screen and (min-width: 320px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  #second-panel {
-    height: 90vh;
-    video {
-      height: 90.1vh;
-    }
-  }
-}
-
-@media screen and (min-width: 481px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  #second-panel {
-    height: 92.2vh;
-    video {
-      height: 92.2vh;
-    }
-  }
-}
-
-@media screen and (min-width: 600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-   #second-panel {
-    height: 93vh;
-    video {
-      height: 93vh;
-    }
-  }
-}
-// }
-
-@media screen and (min-width: 800px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  #second-panel {
-    height: 89.52vh;
-    video {
-      height: 89.52vh;
-    }
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
-  #second-panel {
-    height: 91.7vh;
-    video {
-      height: 91.7vh;
-    }
-  }
-}
-
-@media screen and (min-width: 1280px) {
-//   /* hi-res laptops and desktops */
-  #second-panel {
-    height: 93.7vh;
-    video {
-      height: 93.7vh;
-    }
+  p {
+    font-size: 4em;
   }
 }
 
 #third-panel{
   width: 100%;
-  height: 91.5vh;
+  height: 100vh;
   background-image: url('https://duquets.files.wordpress.com/2014/09/gradient_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 91.5vh;
-  }
-}
-
-@media screen and (min-width: 320px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  #third-panel {
-    height: 90vh;
-    margin: 0;
-    h3 {
-      font-size: 2em;
-    }
-  }
-}
-
-@media screen and (min-width: 481px) {
-  /* smartphones, Android phones, landscape iPhone */
-  #third-panel {
-    height: 90vh;
-    h3 {
-      font-size: 2.92em;
-    }
-  }
-}
-
-@media screen and (min-width: 600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  #third-panel {
-    height: 93vh;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  #third-panel {
-    height: 89.52vh;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
-  #third-panel {
-    height: 91.7vh;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  /* hi-res laptops and desktops */
-  #third-panel {
-    height: 93.5vh;
+  margin: 0;
+  p {
+    font-size: 1.5rem;
   }
 }
 
 #fourth-panel{
   width: 100%;
-  height: 91.5vh;
+  height: 100vh;
   background-image: url('work.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 55vh;
-    h3 {
-      text-shadow: 0px 0px 12px skyblue;
-
-      text-align: center;
-      margin: 0;
-      vertical-align: middle;
-    }
-  }
-}
-
-@media screen and (min-width: 320px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  #fourth-panel {
-    height: 90vh;
-    margin: 0;
-    h3 {
-      font-size: 2em;
-    }
-  }
-}
-
-@media screen and (min-width: 481px) {
-  /* smartphones, Android phones, landscape iPhone */
-  #fourth-panel {
-    height: 90vh;
-    h3 {
-      font-size: 2.92em;
-    }
-  }
-}
-
-@media screen and (min-width: 600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  #fourth-panel {
-    height: 93vh;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  #fourth-panel {
-    height: 89.52vh;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
-  #fourth-panel {
-    height: 91.7vh;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  /* hi-res laptops and desktops */
-  #fourth-panel {
-    height: 93.5vh;
+  margin: 0;
+  p {
+    font-size: 4em;
   }
 }
 
 #fith-panel{
   width: 100%;
-  height: 93vh;
+  height: 100vh;
   background-image: url('http://www.techandall.com/wp-content/uploads/2013/08/bg9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  h3, ul, li {
-    font-size-adjust: auto;
-    text-align: center;
-    margin: 0;
-    vertical-align: middle;
-  }
-  h3 {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border: 1px solid white;
+  p, li {
+    font-size: 1.5rem;
   }
 }
-
-// steve's profile pic
 
 #about {
   width: 100%;
@@ -267,125 +92,11 @@
   }
 }
 
-@media screen and (min-width: 320px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  #about {
-    height: 150vh;
-    .small-text {
-      p {
-        font-size: 16px !important;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
-  #about {
-    height: 100vh;
-    .small-text {
-      p {
-        font-size: 20px !important;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  /* hi-res laptops and desktops */
-  #about {
-    height: 100vh;
-    .small-text {
-      p {
-        font-size: 22px !important;
-      }
-    }
-  }
-}
-
-
-
-#memorable {
-  width: 100%;
-  height: 100vh;
-  background-image: url('memorable.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-    h3 {
-      color: white;
-      text-shadow: 1px 1px 5px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-    p {
-      color: white;
-      font-size: 20px;
-      text-align: center;
-      text-shadow: 0px 0px 5px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-}
-
-#make_it {
-  width: 100%;
-  height: 100vh;
-  background-image: url('make.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    h3 {
-      text-align: center;
-      text-shadow: 1px 1px 3px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-    p {
-      color: yellow;
-      font-size: 20px;
-      text-align: center;
-      text-shadow: 5px 2px 3px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-  }
-}
-
-#measurable {
-  width: 100%;
-  height: 100vh;
-  background-image: url('measurable.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    h3 {
-      text-align: center;
-      text-shadow: 1px 1px 3px black;
-      margin: 0;
-      vertical-align: middle;
-    }
-    p {
-      color: yellow;
-      font-size: 20px;
-      text-align: center;
-      margin: 0;
-      vertical-align: middle;
-    }
-  }
-}
-
 #first-section {
   position: relative;
   left: 0;
   height: 70vh;
+  margin: 0;
   video {
     left: 0;
     position: absolute;
@@ -403,58 +114,70 @@
   }
 }
 
-#New_Employee_Training {
+#new-employee-training-panel {
   height: 100vh;
   background-color: blue;
-  h1 {
-    margin: 0 !important;
-  }
+  margin: 0;
 }
 
-#Product {
+#product-tool-panel {
   height: 100vh;
   background-color: red;
-  h1 {
-    margin: 0 !important;
-  }
+  margin: 0;
 }
 
-#Soft {
+#soft-skill-panel {
   height: 100vh;
   background-color: lightblue;
-  h1 {
-    margin: 0 !important;
-  }
+  margin: 0;
 }
 
-#Leadership {
+#leadership-training-panel {
   height: 100vh;
   background-color: orange;
-  h1 {
-    margin: 0 !important;
-  }
+  margin: 0;
 }
 
-#Training {
+#training-consultant-panel {
   height: 100vh;
   background-color: darkgreen;
-  h1 {
-    margin: 0 !important;
-  }
+  margin: 0;
 }
 
-#Facilitation {
+#facilitation-assistance-panel {
   height: 100vh;
   background-color: red;
-  h1 {
-    margin: 0 !important;
-  }
+  margin: 0;
 }
 
-#Trainer {
+#trainer-development-panel {
   height: 100vh;
-  background-color: black;
-  h1 {
-    margin: 0 !important;
-  }
+  background-color: white;
+  margin: 0;
+}
+
+#memorable-panel {
+  width: 100%;
+  height: 100vh;
+  background-image: url('memorable.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+#make-it-panel {
+  width: 100%;
+  height: 100vh;
+  background-image: url('make.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#measurable-panel {
+  width: 100%;
+  height: 100vh;
+  background-image: url('measurable.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
