@@ -187,6 +187,8 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rollbar (2.14.1)
+      multi_json
     rspec-core (3.5.4)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
@@ -296,6 +298,7 @@ DEPENDENCIES
   rails-controller-testing
   redis (~> 3.0)
   rest-client
+  rollbar
   rspec-rails
   sass-rails (~> 5.0)
   sendgrid-ruby
