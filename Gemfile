@@ -22,6 +22,7 @@ gem 'sidekiq'
 gem 'contentful'
 gem 'rest-client'
 gem 'materialize-sass'
+gem 'rollbar'
 
 group :development, :test do
   gem 'pry-rails'
