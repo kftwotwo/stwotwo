@@ -24,6 +24,7 @@ ENV Setup
 INSIGHTLY_API_KEY=your_key_here
 CONTENTFUL_DELIVERY_API=your_key_here
 CONTENTFUL_SPACE_ID=your_key_here
+STWOTWO_ROLLBAR_KEY=your_key_here
 ```
 
 ## Known Bugs
