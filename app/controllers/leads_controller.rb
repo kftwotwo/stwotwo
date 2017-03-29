@@ -7,8 +7,8 @@ class LeadsController < ApplicationController
   def create
     @lead = Lead.new(insightly_params_lead)
     if @lead.save
-      InsightlyService::Lead.create(@lead)
-      OnBoardMailer.welcome_email(@lead).deliver
+      InsightlyWorker.perform_async(@lead.id)
+      EmailWorker.perform_async(@lead.id)
       flash[:success] = "Success! I will get in contact with you soon!"
       redirect_to root_path
     else
