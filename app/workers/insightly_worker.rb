@@ -1,8 +1,8 @@
 class InsightlyWorker
   include Sidekiq::Worker
 
-  def perform(lead)
-    email = Lead.find(lead)
-    InsightlyService::Lead.create(email)
+  def perform(lead_id)
+   lead =  Lead.find(lead_id)
+   InsightlyService::Lead.create(lead)
   end
 end
