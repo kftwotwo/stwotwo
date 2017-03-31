@@ -23,6 +23,7 @@ gem 'contentful'
 gem 'rest-client'
 gem 'materialize-sass'
 gem 'rollbar'
+gem 'devise'
 
 group :development, :test do
   gem 'pry-rails'
