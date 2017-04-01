@@ -1,6 +1,7 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  devise_for :users
   devise_for :admins
   mount Sidekiq::Web => '/sidekiq'
   root to: 'static_pages#landing'
