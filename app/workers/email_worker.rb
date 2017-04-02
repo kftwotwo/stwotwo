@@ -2,6 +2,7 @@ class EmailWorker
   include Sidekiq::Worker
 
   def perform(lead_id)
-    OnBoardMailer.welcome_email(lead_id).deliver
+    lead = Lead.find(lead_id)
+    OnBoardMailer.welcome_email(lead).deliver
   end
 end
