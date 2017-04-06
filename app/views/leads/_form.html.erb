@@ -32,12 +32,16 @@
 
   <div class="col l4 s12">
     <%= f.label :training_solution, 'What best describes the training solution you are looking for?' %>
-    <%= f.select :training_solution, [['New Hire Training','New Hire Training'],['Product/Tools Training','Product/Tools Training'], ['Skill/Behavior Training','Skill/Behavior Training'],['Leadership Training', 'Leadership Training'], ['Consult for a training program', 'Consult for a training program'],['Facilitation assistance', 'Facilitation assistance'],['Trainer/Facilitation Training','Trainer/Facilitation Training']],{ class: 'browser-default'} %>
+    <%= f.select :training_solution, [['New Hire Training','New Hire Training'],['Product/Tools Training','Product/Tools Training'], ['Skill/Behavior Training','Skill/Behavior Training'],['Leadership Training', 'Leadership Training'], ['Consult for a training program', 'Consult for a training program'],['Facilitation assistance', 'Facilitation assistance'],['Trainer/Facilitation Training','Trainer/Facilitation Training']]%>
   </div>
 
   <div class="col l12 s12">
     <%= f.label :training_solution_description, 'Describe your training solution in detail' %>
     <%= f.text_area :training_solution_description, class: 'materialize-textarea' %>
   </div>
-  <%= f.submit "Submit", class: 'btn'%>
+
+  <div class="col l12">
+    <%= f.submit "Submit", class: 'btn'%>
+  </div>
 <% end %>
+
