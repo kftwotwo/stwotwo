@@ -10,15 +10,7 @@ module InsightlyService
             :organization_name => lead_attr.organization_name,
             :phone_number => lead_attr.phone_number,
             :email_address => lead_attr.email,
-            :customfields => [
-            {
-              :custom_field_id => 'LEAD_FIELD_1',
-              :field_value => lead_attr.training_solution
-            },
-            {
-              :custom_field_id => 'LEAD_FIELD_2',
-              :field_value => lead_attr.training_solution_description
-            }]
+            :lead_description => "#{lead_attr.training_solution} - #{lead_attr.training_solution_description}",
           }
         )
       end
